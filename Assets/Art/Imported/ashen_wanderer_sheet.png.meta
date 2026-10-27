@@ -1,0 +1,1602 @@
+fileFormatVersion: 2
+guid: 440931255acb5ac4d88ce5b117a55a6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 141
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AshenWanderer_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6512ce0368b03f9d0800000000000000
+      internalID: -2741835077164195498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_001
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7495e60a261ca60800000000000000
+      internalID: 7692538079711152035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_002
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0594c9d57252fd90800000000000000
+      internalID: -7065494199272696564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_003
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5486bd94574663470800000000000000
+      internalID: 8373991012055083077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_004
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7080f68e435710e00800000000000000
+      internalID: 1009216661606041607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_005
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b65e15c37487690800000000000000
+      internalID: -7604249646417482945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_006
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683292f59fea8ac50800000000000000
+      internalID: 6676778833643381638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_007
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 987
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20982dff7fd3fa8d0800000000000000
+      internalID: -2832977505234548478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7ad37c2236ac590800000000000000
+      internalID: -7653195615739992151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_009
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46a5ef0f05088e60800000000000000
+      internalID: 7964621503254079054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_010
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59ae811ed35558d0800000000000000
+      internalID: -2858286175254304417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_011
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4aff6f51f015f0800000000000000
+      internalID: -787864542586974923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_012
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e21e46639bc42fd0800000000000000
+      internalID: -2367543670153014552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_013
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f66f5fbb106ca6d0800000000000000
+      internalID: -2977899581307656457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_014
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b945ca73252c06920800000000000000
+      internalID: 2981596611696415899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_015
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 846
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05dabd34d82152d0800000000000000
+      internalID: -3291804960597289716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded069dfad59fc350800000000000000
+      internalID: 6039210393117003245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_017
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484191561fb971f0800000000000000
+      internalID: -1046595335808268221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_018
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d15bdf14386a930800000000000000
+      internalID: 4154152025748479269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_019
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77597d8cde586db60800000000000000
+      internalID: 7770545463397684599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_020
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f04670d51d84d00800000000000000
+      internalID: 957245118302392151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_021
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4da568d0eb0f8ec0800000000000000
+      internalID: -3562615719895650993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_022
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9994b005d8bc37f0800000000000000
+      internalID: -631426622759331427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_023
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 705
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd357982f576fa50800000000000000
+      internalID: 6554555992233033162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600eb5bb0a19685a0800000000000000
+      internalID: -6519363291048058874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_025
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2642ab8c9043a0800000000000000
+      internalID: -6683169723480920524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_026
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26b9f7e90a40f640800000000000000
+      internalID: 5111666983472576043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_027
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227c8f3d55a808b90800000000000000
+      internalID: -7241636099578607838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_028
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c0d3afef9230860800000000000000
+      internalID: 7494880379971374233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_029
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbbfcf1954783e00800000000000000
+      internalID: 1024696841361406966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_030
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7b077ac3f1cc210800000000000000
+      internalID: 1354491933299357674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_031
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 564
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242513467d6307500800000000000000
+      internalID: 391873466308055618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_032
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b73c195251fafdf0800000000000000
+      internalID: -145538701951486027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_033
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc67ae02f0b97d370800000000000000
+      internalID: 8347310923633555147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_034
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8374f3640427d15f0800000000000000
+      internalID: -784345139710572744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_035
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2395d420a217897d0800000000000000
+      internalID: -2911452733853837006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_036
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f7e611f00bb8a70800000000000000
+      internalID: 8830345073153441593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_037
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a6d5db9af1d3db0800000000000000
+      internalID: -4810654013074871799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_038
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df1545c8937d1400800000000000000
+      internalID: 296520250458185688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_039
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 423
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beafe80b97ec18a0800000000000000
+      internalID: -6332932322933887308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630690d8340f287f0800000000000000
+      internalID: -611662426449289162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_041
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ff2ef7aa64b340800000000000000
+      internalID: 4878641566105727162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_042
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187b25b991e07b7a0800000000000000
+      internalID: -6361600445494675583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_043
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26febd4077b8adf0800000000000000
+      internalID: -168683293057812945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_044
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50f819f57db7c950800000000000000
+      internalID: 6469347704128991324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_045
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c597d961c9fea50800000000000000
+      internalID: 6552627603792550964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_046
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc95c3edbd8eaf00800000000000000
+      internalID: 1129996403226287347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_047
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 282
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da20b1b22e43e74a0800000000000000
+      internalID: -6593774658433383763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_048
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5dfb8fea1839e10800000000000000
+      internalID: 2203247231211918802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_049
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d23b10ed33f4bf0800000000000000
+      internalID: -337994418425221745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_050
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8804a1504ce843620800000000000000
+      internalID: 2752982244780556424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_051
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0a84361759e46e0800000000000000
+      internalID: -1851378082573147987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_052
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefb504ab87d083e0800000000000000
+      internalID: -2053404435328679953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_053
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcca390fa9c18750800000000000000
+      internalID: 6305542706906713311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_054
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fad13d6420435270800000000000000
+      internalID: 8237998668585753337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_055
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 141
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e52a1279e61bafe0800000000000000
+      internalID: -1176821685729745431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_056
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754824daf933e49f0800000000000000
+      internalID: -482391349182430121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_057
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a281e6f873af2b0800000000000000
+      internalID: -5550062501613786467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_058
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81515266e6f738550800000000000000
+      internalID: 6161908827309806872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_059
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3e70409d45ba7b0800000000000000
+      internalID: -5211978852698954791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_060
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc25222c4f50bf60800000000000000
+      internalID: 8048037314706091207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_061
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d4e3da332be5260800000000000000
+      internalID: 7088298798547356944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_062
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8524872259a1490800000000000000
+      internalID: -7774737831422699357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AshenWanderer_063
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b75d057a15d6d1e0800000000000000
+      internalID: -2173315460550010952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AshenWanderer_000: -2741835077164195498
+      AshenWanderer_001: 7692538079711152035
+      AshenWanderer_002: -7065494199272696564
+      AshenWanderer_003: 8373991012055083077
+      AshenWanderer_004: 1009216661606041607
+      AshenWanderer_005: -7604249646417482945
+      AshenWanderer_006: 6676778833643381638
+      AshenWanderer_007: -2832977505234548478
+      AshenWanderer_008: -7653195615739992151
+      AshenWanderer_009: 7964621503254079054
+      AshenWanderer_010: -2858286175254304417
+      AshenWanderer_011: -787864542586974923
+      AshenWanderer_012: -2367543670153014552
+      AshenWanderer_013: -2977899581307656457
+      AshenWanderer_014: 2981596611696415899
+      AshenWanderer_015: -3291804960597289716
+      AshenWanderer_016: 6039210393117003245
+      AshenWanderer_017: -1046595335808268221
+      AshenWanderer_018: 4154152025748479269
+      AshenWanderer_019: 7770545463397684599
+      AshenWanderer_020: 957245118302392151
+      AshenWanderer_021: -3562615719895650993
+      AshenWanderer_022: -631426622759331427
+      AshenWanderer_023: 6554555992233033162
+      AshenWanderer_024: -6519363291048058874
+      AshenWanderer_025: -6683169723480920524
+      AshenWanderer_026: 5111666983472576043
+      AshenWanderer_027: -7241636099578607838
+      AshenWanderer_028: 7494880379971374233
+      AshenWanderer_029: 1024696841361406966
+      AshenWanderer_030: 1354491933299357674
+      AshenWanderer_031: 391873466308055618
+      AshenWanderer_032: -145538701951486027
+      AshenWanderer_033: 8347310923633555147
+      AshenWanderer_034: -784345139710572744
+      AshenWanderer_035: -2911452733853837006
+      AshenWanderer_036: 8830345073153441593
+      AshenWanderer_037: -4810654013074871799
+      AshenWanderer_038: 296520250458185688
+      AshenWanderer_039: -6332932322933887308
+      AshenWanderer_040: -611662426449289162
+      AshenWanderer_041: 4878641566105727162
+      AshenWanderer_042: -6361600445494675583
+      AshenWanderer_043: -168683293057812945
+      AshenWanderer_044: 6469347704128991324
+      AshenWanderer_045: 6552627603792550964
+      AshenWanderer_046: 1129996403226287347
+      AshenWanderer_047: -6593774658433383763
+      AshenWanderer_048: 2203247231211918802
+      AshenWanderer_049: -337994418425221745
+      AshenWanderer_050: 2752982244780556424
+      AshenWanderer_051: -1851378082573147987
+      AshenWanderer_052: -2053404435328679953
+      AshenWanderer_053: 6305542706906713311
+      AshenWanderer_054: 8237998668585753337
+      AshenWanderer_055: -1176821685729745431
+      AshenWanderer_056: -482391349182430121
+      AshenWanderer_057: -5550062501613786467
+      AshenWanderer_058: 6161908827309806872
+      AshenWanderer_059: -5211978852698954791
+      AshenWanderer_060: 8048037314706091207
+      AshenWanderer_061: 7088298798547356944
+      AshenWanderer_062: -7774737831422699357
+      AshenWanderer_063: -2173315460550010952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

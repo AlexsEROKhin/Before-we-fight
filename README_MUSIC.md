@@ -1,0 +1,7 @@
+# Background music
+
+The title and arena scenes each contain a root object named `Background Music (editable)`. Its `PersistentMusic` component exposes the AudioClip and volume in the Unity Inspector. The first loaded instance survives scene changes, so the loop does not restart when the Play button opens the arena. Opening `Arena.unity` directly in Play Mode also starts the music. The intro remains silent.
+
+Selected track: `Assets/Audio/Music/before_we_fight_original.wav`, an original 32-bar, 144 BPM, 53.33-second battle loop composed and synthesized locally for this game. It contains no third-party samples or imported musical recordings. `Tools/OriginalMusic/Program.cs` is the editable source for its notes, chords, rhythm, voices and WAV renderer. Regenerate it with `dotnet run --project Tools/OriginalMusic/OriginalMusic.csproj --configuration Release -- Assets/Audio/Music/before_we_fight_original.wav` from the project root. This overwrites the generated WAV, so copy it first if you hand-edit it in another application. The previously downloaded CC0 tracks (`hallow_quest_16bit.ogg` and `heartfelt-battle_loop.ogg`) remain as unused alternatives; their source/license details are in `Assets/Audio/Music/LICENSE.txt`. The initial volume is 0.22; adjust `volume` on the scene object, or assign a different AudioClip to `music`.
+
+The C# compile check passed. Actual audio playback and mix balance still need a Unity Play Mode listening pass; no successful Editor Play Mode test is claimed.

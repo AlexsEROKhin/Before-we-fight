@@ -1,0 +1,14 @@
+Heartfelt Battle (loop)
+Author: request
+Source: https://opengameart.org/content/heartfelt-battle-loopable-fantasy-stringspianohorn
+License: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+Original file: heartfelt-battle_loop.ogg
+Downloaded for this Unity project on 2026-10-19.
+Attribution is not required by CC0, but crediting the author is welcome.
+
+Hallow Quest (16-bit version)
+Author: Zane Little Music
+Source: https://opengameart.org/content/spooky-action-loop-hallow-quest
+License: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+Original file: Hallow Quest_2.ogg from 16_bit.zip
+Downloaded for this Unity project on 2026-10-19.

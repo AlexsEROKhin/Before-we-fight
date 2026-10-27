@@ -1,0 +1,14 @@
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\bin\Release\net10.0\OriginalSfx.exe
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\bin\Release\net10.0\OriginalSfx.deps.json
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\bin\Release\net10.0\OriginalSfx.runtimeconfig.json
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\bin\Release\net10.0\OriginalSfx.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\bin\Release\net10.0\OriginalSfx.pdb
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.AssemblyInfoInputs.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.AssemblyInfo.cs
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.csproj.CoreCompileInputs.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\refint\OriginalSfx.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.pdb
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\OriginalSfx.genruntimeconfig.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalSfx\obj\Release\net10.0\ref\OriginalSfx.dll

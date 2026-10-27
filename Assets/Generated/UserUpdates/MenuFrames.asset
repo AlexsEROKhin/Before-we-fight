@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3e32519f14f5d439271cc7232fec8d, type: 3}
+  m_Name: MenuFrames
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFrameSet
+  frames:
+  - {fileID: 3467884806828681569, guid: 6c4a8e3e36f779940b268c297db7fc75, type: 3}
+  - {fileID: -5968121256339642370, guid: 6c4a8e3e36f779940b268c297db7fc75, type: 3}
+  - {fileID: -2623446098413953073, guid: 6c4a8e3e36f779940b268c297db7fc75, type: 3}
+  - {fileID: 4345129496575670693, guid: 6c4a8e3e36f779940b268c297db7fc75, type: 3}
+  - {fileID: 6873931451389692131, guid: 6c4a8e3e36f779940b268c297db7fc75, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbcc49a3e3e40b4b96c55a06c9b4410, type: 3}
+  m_Name: AbilityRewards
+  m_EditorClassIdentifier: Assembly-CSharp::ChestRewardProfile
+  choices:
+  - kind: 3
+    cardSprite: {fileID: 21300000, guid: 61e231895c674638b66cb00b285ab502, type: 3}
+    displayName: CRITICAL SWORD
+    description: 20% chance for an extra sword hit
+  - kind: 4
+    cardSprite: {fileID: 21300000, guid: 61e231895c674638b66cb00b285ab503, type: 3}
+    displayName: SECOND DASH
+    description: Gain a second dash charge
+  - kind: 5
+    cardSprite: {fileID: 21300000, guid: 61e231895c674638b66cb00b285ab504, type: 3}
+    displayName: KILL EXPLOSION
+    description: Defeated enemies damage nearby foes
+  - kind: 9
+    cardSprite: {fileID: 21300000, guid: 96823a50274220446a43eec34dc57fd2, type: 3}
+    displayName: STEEL RHYTHM
+    description: Sword attacks 10% faster per level
+  - kind: 10
+    cardSprite: {fileID: 21300000, guid: 5b505368e07a7314db7c247668e226bf, type: 3}
+    displayName: IRON SKIN
+    description: Take 10% less damage per level
+  - kind: 11
+    cardSprite: {fileID: 21300000, guid: e67310f2a796ed146a944817a0250645, type: 3}
+    displayName: MOMENTUM
+    description: Move 15% faster for 3s after a kill
+  - kind: 12
+    cardSprite: {fileID: 21300000, guid: 07797b1b92cf3564fbdcd01c64498431, type: 3}
+    displayName: SPIN MASTERY
+    description: Q gains reach and 1s less cooldown

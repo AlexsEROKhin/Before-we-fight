@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3e32519f14f5d439271cc7232fec8d, type: 3}
+  m_Name: PlayFrames
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFrameSet
+  frames:
+  - {fileID: 7719422967312119857, guid: b3e771c019d8cec42be2b4ca7f2b7161, type: 3}
+  - {fileID: 4280592102058028451, guid: b3e771c019d8cec42be2b4ca7f2b7161, type: 3}
+  - {fileID: 7557744884966347574, guid: b3e771c019d8cec42be2b4ca7f2b7161, type: 3}
+  - {fileID: -6747098748023144478, guid: b3e771c019d8cec42be2b4ca7f2b7161, type: 3}
+  - {fileID: 8322198988355007807, guid: b3e771c019d8cec42be2b4ca7f2b7161, type: 3}

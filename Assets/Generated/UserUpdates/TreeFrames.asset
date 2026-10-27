@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3e32519f14f5d439271cc7232fec8d, type: 3}
+  m_Name: TreeFrames
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFrameSet
+  frames:
+  - {fileID: -7358678110592743550, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 8692399272690219056, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: -5422874314332221448, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 1077490931449774464, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 1116304746660988165, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: -7336913804523280916, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: -6901559245940818223, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: -8200326722951151361, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 5504734541251141047, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 1961758607687687244, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 7742909801325132152, guid: b0ff10c595a8122428cc54590029954f, type: 3}
+  - {fileID: 1498419666649189799, guid: b0ff10c595a8122428cc54590029954f, type: 3}

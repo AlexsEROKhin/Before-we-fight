@@ -1,0 +1,21 @@
+using System;using System.Linq;using UnityEditor;using UnityEditor.Animations;using UnityEngine;
+public static class AshenWandererInstaller
+{
+ const string Sheet="Assets/Art/Imported/ashen_wanderer_sheet.png";const string Anim="Assets/Generated/Animations/AshenWanderer";const string Controller="Assets/Generated/Controllers/AshenWanderer.controller";
+ [MenuItem("Tools/Before We Fight/Prepare Ashen Wanderer")]
+ public static void Install()
+ {
+  Ensure("Assets/Generated/Animations","AshenWanderer");Sprite[] frames=Import();
+  AnimationClip idle=Clip("Idle",frames,0,8,8,true),walk=Clip("Walk",frames,8,8,10,true),run=Clip("Run",frames,16,8,12,true),attack=Clip("Attack",frames,24,8,14,false),dodge=Clip("Dodge",frames,32,8,12,false),dash=Clip("Dash",frames,40,8,14,false),jump=Clip("Jump",frames,48,8,10,false),death=Clip("Death",frames,56,8,9,false);
+  AnimatorController controller=AssetDatabase.LoadAssetAtPath<AnimatorController>(Controller);if(controller==null)controller=AnimatorController.CreateAnimatorControllerAtPath(Controller);var machine=controller.layers[0].stateMachine;foreach(var child in machine.states.ToArray())machine.RemoveState(child.state);AnimationClip[] clips={idle,walk,run,attack,dodge,dash,jump,death};foreach(var clip in clips){var state=machine.AddState(clip.name);state.motion=clip;if(clip==idle)machine.defaultState=state;}
+  GameObject root=new("AshenWanderer",typeof(SpriteRenderer),typeof(Rigidbody2D),typeof(CircleCollider2D),typeof(Animator),typeof(TopDownPlayer));var sr=root.GetComponent<SpriteRenderer>();sr.sprite=frames[0];sr.sortingOrder=25;var rb=root.GetComponent<Rigidbody2D>();rb.gravityScale=0;rb.linearDamping=8;rb.freezeRotation=true;var collider=root.GetComponent<CircleCollider2D>();collider.radius=.28f;collider.isTrigger=true;root.GetComponent<Animator>().runtimeAnimatorController=controller;
+  var so=new SerializedObject(root.GetComponent<TopDownPlayer>());so.FindProperty("idle").objectReferenceValue=idle;so.FindProperty("walk").objectReferenceValue=walk;so.FindProperty("hit").objectReferenceValue=attack;so.FindProperty("jump").objectReferenceValue=jump;so.ApplyModifiedPropertiesWithoutUndo();PrefabUtility.SaveAsPrefabAsset(root,"Assets/Prefabs/AshenWanderer.prefab");UnityEngine.Object.DestroyImmediate(root);AssetDatabase.SaveAssets();Debug.Log("Ashen Wanderer prepared: 64 frames, 8 clips and editable prefab.");
+ }
+ static Sprite[] Import(){AssetDatabase.ImportAsset(Sheet,ImportAssetOptions.ForceSynchronousImport);var im=(TextureImporter)AssetImporter.GetAtPath(Sheet);im.textureType=TextureImporterType.Sprite;im.spriteImportMode=SpriteImportMode.Multiple;im.spritePixelsPerUnit=141;im.filterMode=FilterMode.Point;im.textureCompression=TextureImporterCompression.Uncompressed;im.mipmapEnabled=false;var metadata=new SpriteMetaData[64];for(int row=0;row<8;row++)for(int col=0;col<8;col++){int i=row*8+col;metadata[i]=new SpriteMetaData{name=$"AshenWanderer_{i:000}",rect=new Rect(col*176,1128-(row+1)*141,176,141),alignment=(int)SpriteAlignment.Center,pivot=new(.5f,.5f)};}
+#pragma warning disable CS0618
+ im.spritesheet=metadata;
+#pragma warning restore CS0618
+ im.SaveAndReimport();return AssetDatabase.LoadAllAssetsAtPath(Sheet).OfType<Sprite>().OrderBy(x=>x.name,StringComparer.Ordinal).ToArray();}
+ static AnimationClip Clip(string name,Sprite[] all,int start,int count,float fps,bool loop){string path=$"{Anim}/AshenWanderer_{name}.anim";AnimationClip clip=AssetDatabase.LoadAssetAtPath<AnimationClip>(path);if(clip==null){clip=new AnimationClip{name=name};AssetDatabase.CreateAsset(clip,path);}clip.name=name;clip.frameRate=fps;var keys=new ObjectReferenceKeyframe[count+1];for(int i=0;i<count;i++)keys[i]=new ObjectReferenceKeyframe{time=i/fps,value=all[start+i]};keys[count]=new ObjectReferenceKeyframe{time=count/fps,value=all[start+count-1]};var binding=new EditorCurveBinding{path="",type=typeof(SpriteRenderer),propertyName="m_Sprite"};AnimationUtility.SetObjectReferenceCurve(clip,binding,keys);var settings=AnimationUtility.GetAnimationClipSettings(clip);settings.loopTime=loop;AnimationUtility.SetAnimationClipSettings(clip,settings);EditorUtility.SetDirty(clip);return clip;}
+ static void Ensure(string parent,string name){string path=$"{parent}/{name}";if(!AssetDatabase.IsValidFolder(path))AssetDatabase.CreateFolder(parent,name);}
+}

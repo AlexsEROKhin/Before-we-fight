@@ -1,0 +1,14 @@
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\bin\Release\net10.0\OriginalMusic.exe
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\bin\Release\net10.0\OriginalMusic.deps.json
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\bin\Release\net10.0\OriginalMusic.runtimeconfig.json
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\bin\Release\net10.0\OriginalMusic.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\bin\Release\net10.0\OriginalMusic.pdb
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.AssemblyInfoInputs.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.AssemblyInfo.cs
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.csproj.CoreCompileInputs.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\refint\OriginalMusic.dll
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.pdb
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\OriginalMusic.genruntimeconfig.cache
+C:\Users\okyer\OneDrive\Документы\ChatGPT\создание игры\Tools\OriginalMusic\obj\Release\net10.0\ref\OriginalMusic.dll

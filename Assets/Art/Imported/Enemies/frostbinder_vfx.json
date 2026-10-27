@@ -1,0 +1,77 @@
+{ "frames": [
+   {
+    "filename": "frostbinder_vfx 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 1.aseprite",
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 2.aseprite",
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 3.aseprite",
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 4.aseprite",
+    "frame": { "x": 128, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 5.aseprite",
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   },
+   {
+    "filename": "frostbinder_vfx 6.aseprite",
+    "frame": { "x": 192, "y": 0, "w": 32, "h": 24 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 24 },
+    "sourceSize": { "w": 32, "h": 24 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.18.3-x64",
+  "image": "frostbinder_vfx.png",
+  "format": "RGBA8888",
+  "size": { "w": 224, "h": 24 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Freeze Ground", "from": 0, "to": 6, "direction": "forward", "color": "#000000ff" }
+  ]
+ }
+}

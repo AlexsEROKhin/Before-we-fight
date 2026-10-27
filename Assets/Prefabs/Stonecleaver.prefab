@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8848528069921576378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6398297536994251025}
+  - component: {fileID: 5427802290282374137}
+  - component: {fileID: 6706290164016267765}
+  - component: {fileID: 4218458639661686667}
+  - component: {fileID: 2147093584998663448}
+  - component: {fileID: 1475374200467090975}
+  - component: {fileID: 4173387958511248218}
+  - component: {fileID: 870000000000000001}
+  m_Layer: 0
+  m_Name: Stonecleaver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &870000000000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e1db0ef0324af8892bd25a873d38b6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
+  gapAboveSprite: 0.13
+  segmentWidth: 0.13
+  segmentHeight: 0.055
+  segmentGap: 0.025
+  showDistance: 7
+  fullColor: {r: 0.85, g: 0.26, b: 0.24, a: 1}
+  emptyColor: {r: 0.22, g: 0.14, b: 0.14, a: 0.85}
+--- !u!4 &6398297536994251025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5427802290282374137
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 22
+  m_Sprite: {fileID: 1753334181483381671, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &6706290164016267765
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 9
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &4218458639661686667
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.42
+--- !u!114 &2147093584998663448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2335e74a2631a544fa78c98bf0774bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StonecleaverEnemy
+  detectionRadius: 6.5
+  moveSpeed: 0.65
+  attackDistance: 3
+  telegraphSeconds: 0.8
+  fissureSeconds: 1.5
+  fissureRange: 5
+  cooldownSeconds: 3.8
+  recoverySeconds: 1
+  damage: 40
+  hitsToKill: 6
+  frames:
+  - {fileID: 1753334181483381671, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -5192927631858836085, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -6081871240643832084, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -6174042688761254949, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 6843679165497182229, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -3126711373520828419, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -1340925416764825142, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 7788863736651392502, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -2538995971679056355, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 6651647006007834604, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 1908990993589168020, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 8786712935818182143, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 8137895647817359128, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -1309666067928796653, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -6744342147917592494, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 7408305460986920667, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -3060279682686315704, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 1438815779137135513, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -1804403286508157281, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -103289544314195553, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 1901921909436422128, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 3060092143317640246, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -6830194424962035411, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 1993761864219802775, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -5612772247840077907, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 4182019099328272740, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -3487555299575571125, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: 3521043266076417174, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  - {fileID: -8430017590128787558, guid: 8076365109d3a524382f72738ba0bea1, type: 3}
+  fissureFrames:
+  - {fileID: 2580475490248564685, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+  - {fileID: -276874490759337298, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+  - {fileID: 4907442292500331066, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+  - {fileID: 7572417504785453246, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+  - {fileID: -4578930382021580374, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+  - {fileID: 5980344430386726995, guid: 1a9ded782a461b347b4c677218239bfa, type: 3}
+--- !u!114 &1475374200467090975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d1d991ecaf20b4f99f95c210157cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHitFeedback
+  flashSeconds: 0.12
+  nudgeDistance: 0.08
+  hitColor: {r: 1, g: 0.35, b: 0.35, a: 1}
+--- !u!114 &4173387958511248218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848528069921576378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e69f61b1785734ab548e0143699fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySeparation
+  separationRadius: 1.35
+  separationStrength: 3
+  maxNeighbours: 8

@@ -1,0 +1,12 @@
+using System;using System.Linq;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.SceneManagement;
+public static class WhirlraiderInstaller
+{
+ [MenuItem("Tools/Before We Fight/Install Whirlraiders")]
+ public static void Install(){var f=Import();var prefab=Build(f);var scene=EditorSceneManager.OpenScene("Assets/Scenes/Arena.unity",OpenSceneMode.Single);foreach(var g in scene.GetRootGameObjects().Where(x=>x.name.StartsWith("Whirlraider ")).ToArray())UnityEngine.Object.DestroyImmediate(g);Vector2[] p={new(-4,6),new(7,5),new(-7,-6)};for(int i=0;i<p.Length;i++){var go=(GameObject)PrefabUtility.InstantiatePrefab(prefab,scene);go.name=$"Whirlraider {i+1:00}";go.transform.position=p[i];}EditorSceneManager.SaveScene(scene);AssetDatabase.SaveAssets();Debug.Log("Whirlraiders installed in Arena.");}
+ static Sprite[] Import(){const string path="Assets/Art/Imported/Enemies/whirlraider_animated.png";AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport);var im=(TextureImporter)AssetImporter.GetAtPath(path);im.textureType=TextureImporterType.Sprite;im.spriteImportMode=SpriteImportMode.Multiple;im.spritePixelsPerUnit=32;im.filterMode=FilterMode.Point;im.textureCompression=TextureImporterCompression.Uncompressed;im.mipmapEnabled=false;var s=new SpriteMetaData[35];for(int i=0;i<35;i++)s[i]=new SpriteMetaData{name=$"Whirlraider_{i:000}",rect=new Rect(i*32,0,32,32),alignment=(int)SpriteAlignment.Center,pivot=new(.5f,.5f)};
+#pragma warning disable CS0618
+ im.spritesheet=s;
+#pragma warning restore CS0618
+ im.SaveAndReimport();return AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().OrderBy(x=>x.name,StringComparer.Ordinal).ToArray();}
+ static GameObject Build(Sprite[] frames){var root=new GameObject("Whirlraider",typeof(SpriteRenderer),typeof(Rigidbody2D),typeof(CircleCollider2D),typeof(WhirlraiderEnemy));root.GetComponent<SpriteRenderer>().sprite=frames[0];root.GetComponent<SpriteRenderer>().sortingOrder=22;var rb=root.GetComponent<Rigidbody2D>();rb.gravityScale=0;rb.linearDamping=8;rb.freezeRotation=true;var c=root.GetComponent<CircleCollider2D>();c.radius=.28f;c.isTrigger=true;var so=new SerializedObject(root.GetComponent<WhirlraiderEnemy>());var p=so.FindProperty("frames");p.arraySize=frames.Length;for(int i=0;i<frames.Length;i++)p.GetArrayElementAtIndex(i).objectReferenceValue=frames[i];so.ApplyModifiedPropertiesWithoutUndo();var prefab=PrefabUtility.SaveAsPrefabAsset(root,"Assets/Prefabs/Whirlraider.prefab");UnityEngine.Object.DestroyImmediate(root);return prefab;}
+}

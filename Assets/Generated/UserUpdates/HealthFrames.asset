@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de3e32519f14f5d439271cc7232fec8d, type: 3}
+  m_Name: HealthFrames
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteFrameSet
+  frames:
+  - {fileID: -2813438433194823375, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: -1997592369777502180, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: -4220495863598375886, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 6958774029263647525, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 7765427849293555266, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: -1208163847013912507, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 3833724972277201250, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 7182607767461255873, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 2127670641015917984, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: -2436135855795587511, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}
+  - {fileID: 7420610204742462193, guid: ffa93f5ac5b6eb84e976493e974f39ca, type: 3}

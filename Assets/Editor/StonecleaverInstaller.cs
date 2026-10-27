@@ -1,0 +1,13 @@
+using System;using System.Linq;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.SceneManagement;
+public static class StonecleaverInstaller
+{
+ [MenuItem("Tools/Before We Fight/Install Stonecleavers")]
+ public static void Install(){var f=Import("Assets/Art/Imported/Enemies/stonecleaver_animated.png","Stone",29,32,32);var v=Import("Assets/Art/Imported/Enemies/stonecleaver_fissure_vfx.png","Fissure",6,64,24);var prefab=Build(f,v);var scene=EditorSceneManager.OpenScene("Assets/Scenes/Arena.unity",OpenSceneMode.Single);foreach(var g in scene.GetRootGameObjects().Where(x=>x.name.StartsWith("Stonecleaver ")).ToArray())UnityEngine.Object.DestroyImmediate(g);Vector2[] p={new(-10,-1),new(10,2)};for(int i=0;i<p.Length;i++){var go=(GameObject)PrefabUtility.InstantiatePrefab(prefab,scene);go.name=$"Stonecleaver {i+1:00}";go.transform.position=p[i];}EditorSceneManager.SaveScene(scene);AssetDatabase.SaveAssets();Debug.Log("Stonecleavers installed in Arena.");}
+ static Sprite[] Import(string path,string prefix,int count,int w,int h){AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport);var im=(TextureImporter)AssetImporter.GetAtPath(path);im.textureType=TextureImporterType.Sprite;im.spriteImportMode=SpriteImportMode.Multiple;im.spritePixelsPerUnit=32;im.filterMode=FilterMode.Point;im.textureCompression=TextureImporterCompression.Uncompressed;im.mipmapEnabled=false;var s=new SpriteMetaData[count];for(int i=0;i<count;i++)s[i]=new SpriteMetaData{name=$"{prefix}_{i:000}",rect=new Rect(i*w,0,w,h),alignment=(int)SpriteAlignment.Center,pivot=new(.5f,.5f)};
+#pragma warning disable CS0618
+ im.spritesheet=s;
+#pragma warning restore CS0618
+ im.SaveAndReimport();return AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().OrderBy(x=>x.name,StringComparer.Ordinal).ToArray();}
+ static GameObject Build(Sprite[] f,Sprite[] v){var root=new GameObject("Stonecleaver",typeof(SpriteRenderer),typeof(Rigidbody2D),typeof(CircleCollider2D),typeof(StonecleaverEnemy));var sr=root.GetComponent<SpriteRenderer>();sr.sprite=f[0];sr.sortingOrder=22;var rb=root.GetComponent<Rigidbody2D>();rb.gravityScale=0;rb.linearDamping=9;rb.freezeRotation=true;var c=root.GetComponent<CircleCollider2D>();c.radius=.42f;c.isTrigger=true;var so=new SerializedObject(root.GetComponent<StonecleaverEnemy>());Set(so.FindProperty("frames"),f);Set(so.FindProperty("fissureFrames"),v);so.ApplyModifiedPropertiesWithoutUndo();var prefab=PrefabUtility.SaveAsPrefabAsset(root,"Assets/Prefabs/Stonecleaver.prefab");UnityEngine.Object.DestroyImmediate(root);return prefab;}
+ static void Set(SerializedProperty p,Sprite[] a){p.arraySize=a.Length;for(int i=0;i<a.Length;i++)p.GetArrayElementAtIndex(i).objectReferenceValue=a[i];}
+}

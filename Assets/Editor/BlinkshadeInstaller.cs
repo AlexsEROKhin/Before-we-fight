@@ -1,0 +1,12 @@
+using System;using System.Linq;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.SceneManagement;
+public static class BlinkshadeInstaller
+{
+ [MenuItem("Tools/Before We Fight/Install Blinkshades")]
+ public static void Install(){var f=Import();var prefab=Build(f);var scene=EditorSceneManager.OpenScene("Assets/Scenes/Arena.unity",OpenSceneMode.Single);foreach(var g in scene.GetRootGameObjects().Where(x=>x.name.StartsWith("Blinkshade ")).ToArray())UnityEngine.Object.DestroyImmediate(g);Vector2[] p={new(-3,-9),new(9,7),new(-9,7)};for(int i=0;i<p.Length;i++){var go=(GameObject)PrefabUtility.InstantiatePrefab(prefab,scene);go.name=$"Blinkshade {i+1:00}";go.transform.position=p[i];}EditorSceneManager.SaveScene(scene);AssetDatabase.SaveAssets();Debug.Log("Blinkshades installed in Arena.");}
+ static Sprite[] Import(){const string path="Assets/Art/Imported/Enemies/blinkshade_animated.png";AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport);var im=(TextureImporter)AssetImporter.GetAtPath(path);im.textureType=TextureImporterType.Sprite;im.spriteImportMode=SpriteImportMode.Multiple;im.spritePixelsPerUnit=32;im.filterMode=FilterMode.Point;im.textureCompression=TextureImporterCompression.Uncompressed;im.mipmapEnabled=false;var s=new SpriteMetaData[39];for(int i=0;i<39;i++)s[i]=new SpriteMetaData{name=$"Blinkshade_{i:000}",rect=new Rect(i*32,0,32,32),alignment=(int)SpriteAlignment.Center,pivot=new(.5f,.5f)};
+#pragma warning disable CS0618
+ im.spritesheet=s;
+#pragma warning restore CS0618
+ im.SaveAndReimport();return AssetDatabase.LoadAllAssetsAtPath(path).OfType<Sprite>().OrderBy(x=>x.name,StringComparer.Ordinal).ToArray();}
+ static GameObject Build(Sprite[] f){var root=new GameObject("Blinkshade",typeof(SpriteRenderer),typeof(Rigidbody2D),typeof(CircleCollider2D),typeof(BlinkshadeEnemy));var sr=root.GetComponent<SpriteRenderer>();sr.sprite=f[0];sr.sortingOrder=23;var rb=root.GetComponent<Rigidbody2D>();rb.gravityScale=0;rb.linearDamping=8;rb.freezeRotation=true;var c=root.GetComponent<CircleCollider2D>();c.radius=.25f;c.isTrigger=true;var so=new SerializedObject(root.GetComponent<BlinkshadeEnemy>());var p=so.FindProperty("frames");p.arraySize=f.Length;for(int i=0;i<f.Length;i++)p.GetArrayElementAtIndex(i).objectReferenceValue=f[i];so.ApplyModifiedPropertiesWithoutUndo();var prefab=PrefabUtility.SaveAsPrefabAsset(root,"Assets/Prefabs/Blinkshade.prefab");UnityEngine.Object.DestroyImmediate(root);return prefab;}
+}
